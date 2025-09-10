@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+ 
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+div.container h3 {
+  color: #444;
+  font-size: 24px;
+  font-weight: 300;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.color-select {
+  width: 100vw;
+  height: 50px;
+  background-color:rgb(80, 80, 80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.color-select div {
+  background: rgb(6, 147, 207);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 30px;
+  cursor: pointer;
+}
+
+img {
+ margin: 30px auto;
+ width: 300px;
+height: 300px;
+border-radius: 10px;
+ display: block;
+}
+
+button:hover {
+  background-color: rgb(5, 120, 180);
+}
+.text-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.text-section h2 {
+  color: #444;
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.text-section p {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text-section button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(6, 147, 207);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.text-section button:hover {
+  background-color: rgb(5, 120, 180);
+}
+

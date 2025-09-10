@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+ <h3 class="text1">click to change image:</h3>
+ <div class="color-select">
+ <div id="red1"></div>
+ <div id="black"></div>
+</div>
+ <div class="images">
+<img src="recursos/vi.webp" id="imgchange1" alt="">
+</div>
+</div>
+
+ <div class="container">
+<h3 class="text1">click to change color:</h3>
+<div class="color-select">
+<div id="red2"></div>
+<div id="blue"></div>
+</div>
+<div class="images">
+<img src="recursos/jinxblue.webp" id="imgchange2" alt="">
+</div>
+</div>
+
+<div class="text-section">
+  <h2>click to change text</h2> 
+  <p id="demo">Are we still sisters?</p>
+  <button type="button" onclick="document.getElementById('demo').innerHTML = 'Nothing is ever going to change that.'">Haz click!</button>
+</div>
+
+    <script src="script2.js"></script>
+</body>
+</html>

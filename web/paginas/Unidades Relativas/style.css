@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "x";
+    src: url("recursos/Hey\ Comic.ttf") format("woff2");
+    font-weight: bold;
+}
+p{font-size: 50px;
+    font-family: x;
+}
